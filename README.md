@@ -1,2 +1,9 @@
 # AleksandrZooLZakharov_microservices
-AleksandrZooLZakharov microservices repository
+AleksandrZooLZakharov Microservices repository
+
+Задание Докер-1
+Настроил проверку Travis-CI (по аналогии с infra)
+Установлен Докер, запущены Привет мир, собственный контейнер из базового образа убунту.
+Создан свой образ, изучены базовые команды докер.
+Описано основное отличие образа от контейнера.
+Удалены контейнеры и образы.
