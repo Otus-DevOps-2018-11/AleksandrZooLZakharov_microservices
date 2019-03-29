@@ -1,6 +1,23 @@
 # AleksandrZooLZakharov_microservices
 AleksandrZooLZakharov Microservices repository
 
+Задание Докер-4
+Увидел разницу между сетевыми драйверами none и host.
+При многократном запуске docker run --network host -d nginx запущеными остаются два инстанса - первый и последний из запускаемых.
+Запустил проект reddit на bridge-сети.
+Запустио проект разделенным на front и back end`ы.
+Посмотрел на docker-proxy.
+Установил docker-compose.
+Скачал предложенный файл. Запустил docker-compose, используя переменные окружения.
+Изменил настроечный файл в логику front-back-end.
+Параметризовал с помощью .env (включая базовое имя проекта)
+Базовое имя можно задать несколькими способами (в наименовании не учитываются спецсимволы):
+ + изменить имя папки, содержащей docker-compose.yml
+ + сделать export COMPOSE_PROJECT_NAME=_ваш-вариант_
+ + COMPOSE_PROJECT_NAME=_ваш-вариант_ можно вложить в .env файл
+ + запустить композитора с ключом: docker-compose -p your-project-name up
+ ++ а для контейнеров в .yml файле можно добавить: container_name: your-cont-name
+
 Задание Докер-3
 Взял линтер Hadolint из Docker-образа
 Ранее созданный инстанс в GCP запущен
