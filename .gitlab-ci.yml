@@ -22,7 +22,7 @@ test_unit_job:
   script:
     - echo 'Testing 1'
 
-t_unit_job:
+test_unit_job:
   stage: test
   services:
     - mongo:latest
