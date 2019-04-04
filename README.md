@@ -1,6 +1,6 @@
 ﻿# AleksandrZooLZakharov_microservices
 
-AleksandrZooLZakharov Microservices repository
+AleksandrZooLZakharov_Microservices repository
 
 Задание Monitoring-2
 Подготовил окружение, развернул в GCP docker-host (с необходимыми правилами файервола).
