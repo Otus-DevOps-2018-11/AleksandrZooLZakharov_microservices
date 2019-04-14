@@ -2,6 +2,10 @@
 
 AleksandrZooLZakharov_Microservices repository
 
+Kubernetes-1
+Kubernetes_Hard_Way - done
+kubecrl apply -f [*] successfully creates 4 pods
+
 Задание Logging-1
 Создал отдельный compose-файл logging
 Создал образ fluentd
